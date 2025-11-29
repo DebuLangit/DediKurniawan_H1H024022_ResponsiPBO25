@@ -10,7 +10,8 @@ Aplikasi simulasi pelatihan Pokémon berbasis web yang dibangun menggunakan **PH
 
 * **Nama:** Dedi Kurniawan
 * **NIM:** H1H024022
-* **Shift:** [ISI_SHIFT_KAMU_DISINI] (Contoh: Shift 1 / Shift 2)
+* **Shift Awal:** A
+* **Shift Akhir:** D 
 
 ---
 
