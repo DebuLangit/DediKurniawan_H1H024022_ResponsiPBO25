@@ -60,6 +60,4 @@ Kode program ini menerapkan 4 pilar utama OOP:
       
 ## 🎥 Demo Aplikasi
 
-*(Silakan ganti tulisan ini dengan gambar GIF demo aplikasi kamu)*
-
-![Demo Aplikasi](link_atau_path_ke_file_gif_kamu_disini.gif)
+![Demo Aplikasi PokéCare](DemoAplikasi.gif)
