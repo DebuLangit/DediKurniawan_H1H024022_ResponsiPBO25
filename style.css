@@ -1,0 +1,211 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    /* Warna background abu muda */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container utama di tengah layar */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+/* Card untuk Info Pokemon */
+.card {
+    background: #fff8e1;
+    /* Sedikit kuning/krem agar hangat */
+    border-left: 5px solid #d4a373;
+    /* Aksen warna tanah (Ground) untuk Diglett */
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Style untuk Form Latihan */
+form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #e67e22;
+    /* Warna Oranye Semangat */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #d35400;
+}
+
+/* Navigasi (Wadah Tombol) */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* Style Tombol Utama (Class .btn) */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white !important;
+    /* Pakai !important agar warna putih diprioritaskan */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Link biasa di bagian bawah (misal tombol 'Kembali' yang bukan class .btn) */
+.nav a:not(.btn) {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:not(.btn):hover {
+    text-decoration: underline;
+}
+
+/* Link biasa di bagian bawah */
+.nav a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Alert Pesan Sukses */
+.alert {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Tabel Riwayat */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #34495e;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e1e1e1;
+}
+
+/* Style untuk Gambar Pokemon */
+.pokemon-img {
+    display: block;
+    width: 150px;
+    /* Ukuran gambar */
+    height: auto;
+    margin: 0 auto 20px;
+    /* Posisi tengah, ada jarak bawah */
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
+    /* Efek bayangan halus */
+}
+
+/* Agar teks info rapi di bawah gambar */
+.pokemon-info p {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+    border-bottom: 1px dashed #d4a373;
+    /* Garis pemisah tipis antar info */
+    padding-bottom: 5px;
+}
+
+.pokemon-info p:last-child {
+    border-bottom: none;
+    /* Hilangkan garis di info terakhir */
+}
